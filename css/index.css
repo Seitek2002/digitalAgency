@@ -31,6 +31,35 @@ button {
   padding: 0 20px;
 }
 
+.team__content {
+  display: flex;
+}
+.team__box {
+  background: #F4EDED;
+  border-radius: 10px;
+  width: 362.65px;
+  height: 443.46px;
+  text-align: center;
+}
+.team__name {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 24px;
+}
+.team__text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin: 0 34px;
+}
+.team__face {
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
 h1 {
   color: red;
 }/*# sourceMappingURL=index.css.map */

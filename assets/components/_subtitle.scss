@@ -1,0 +1,9 @@
+.subtitle {
+    display: none;
+    &__text {
+        @include font (16px, 400, #AFA8A8);
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+}

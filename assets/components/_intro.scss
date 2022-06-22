@@ -1,0 +1,14 @@
+.intro {
+    display: flex;
+    align-items: center;
+    &__box {
+        padding: 20px 70px 20px ;
+        background: $bg-beige;
+        border-radius: 10px;
+        display: flex;
+        max-width: 650px;
+        gap: 40px;
+    }
+    
+
+}

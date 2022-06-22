@@ -1,7 +1,28 @@
 .team {
+    &__content {
+        display: flex;
+
+    }
+
     &__box {
         background: #F4EDED;
         border-radius: 10px;
-        
+        width: 362.65px;
+        height: 443.46px;
+        text-align: center;
+    }
+
+    &__name {
+        @include font (16px, 700, #000);
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        @include font (14px, 400, #000);
+        margin: 0 34px;
+    }
+    &__face {
+        margin-top: 12px;
+        margin-bottom: 32px;
     }
 }

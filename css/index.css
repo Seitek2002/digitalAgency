@@ -31,6 +31,11 @@ button {
   padding: 0 20px;
 }
 
+.team__box {
+  background: #F4EDED;
+  border-radius: 10px;
+}
+
 h1 {
   color: red;
 }/*# sourceMappingURL=index.css.map */

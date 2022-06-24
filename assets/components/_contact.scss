@@ -1,0 +1,30 @@
+.contact {
+
+  &__title {
+    @include font(40px, 700, #000000);
+    margin-bottom: 50px;
+    max-width: 387px;
+  }
+  &__text {
+    @include font(16px, 400, #000000);
+    margin-bottom: 50px;
+  }
+  &__btn {
+    @include font(16px, 600, #ffffff);
+    background: #7CB9F2;
+    padding-top: 23px;
+    padding-right: 106px;
+    padding-left: 94px;
+    padding-bottom: 22px;
+    border-radius: 10px;
+  }
+  &__content {
+    @include flex(space-between, center);
+    background: #F4EDED;
+    border-radius: 10px;
+  }
+  &__right{
+    max-width: 437px;
+  }
+}
+

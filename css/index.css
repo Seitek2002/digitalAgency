@@ -65,7 +65,7 @@ button {
   width: 362.65px;
   height: 443.46px;
   text-align: center;
-  margin-right: 30px;
+  margin: 0 15px;
 }
 .team__name {
   font-family: "Montserrat";

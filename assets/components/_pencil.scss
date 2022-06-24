@@ -1,0 +1,39 @@
+.pencil {
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__right {
+        // margin-left: 185px;
+        justify-content: center;
+    }
+    &__title {
+        @include font ( 40px, 700, $text-black);
+        max-width: 381px    ;
+    }
+    &__text {
+        max-width: 370px;
+        @include font (16px, 400, $text-black);
+        margin-top: 27px;
+    }
+    &__ctrl {
+        margin-top: 32px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .pencil {
+        &__content {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            text-align: center; 
+        }
+    }
+}
+@media screen and (max-width: 495px) {
+    .pencil {
+        &__amg {
+            max-width: 100%;
+        }
+    }
+}

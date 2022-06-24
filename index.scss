@@ -5,14 +5,14 @@
 
 @import "./assets/components/base";
 @import "./assets/components/classes";
+
+
 @import "./assets/components/header";
 @import "./assets/components/burger";
-
-@import "./assets/components/media";
-
-
 @import "./assets/components/intro";
 @import "./assets/components/subtitle";
+@import "./assets/components/pencil";
+@import "./assets/components/box";
 
 
 @import "./assets/components/media";
@@ -22,5 +22,5 @@
 
 
 h1 {
-    color: red;
+    color: #000;
 }

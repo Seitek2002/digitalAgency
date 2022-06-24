@@ -1,0 +1,32 @@
+.box {
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title {
+        @include font (40px, 700, $text-black);
+        max-width: 401px;
+    }
+    &__taxt {
+        @include font (16px, 400, $text-black);
+        margin-top: 27px;
+        max-width: 424px;
+    }
+    &__strl {
+        margin-top: 27px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .box {
+        &__content {
+            margin-top: 150px;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        &__penis {
+            max-width: 100%;
+        }
+    }
+}

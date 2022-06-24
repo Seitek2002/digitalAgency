@@ -5,8 +5,14 @@
 
 @import "./assets/components/base";
 @import "./assets/components/classes";
+@import "./assets/components/pencil";
+@import "./assets/components/box";
+
+
 @import "./assets/components/header";
+@import "./assets/components/media";
+
 
 h1 {
-    color: red;
+    color: #000;
 }

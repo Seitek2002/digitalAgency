@@ -31,6 +31,111 @@ button {
   padding: 0 20px;
 }
 
+.pencil__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pencil__right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pencil__title {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  max-width: 381px;
+}
+
+.pencil__text {
+  max-width: 370px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 27px;
+}
+
+.pencil__ctrl {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 900px) {
+  .pencil__content {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .pencil__amg {
+    max-width: 100%;
+  }
+}
+
+.box__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box__title {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  max-width: 401px;
+}
+
+.box__taxt {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 27px;
+  max-width: 424px;
+}
+
+.box__strl {
+  margin-top: 27px;
+}
+
+@media screen and (max-width: 900px) {
+  .box__content {
+    margin-top: 150px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .box__penis {
+    max-width: 100%;
+  }
+}
+
 h1 {
-  color: red;
-}/*# sourceMappingURL=index.css.map */
+  color: #000;
+}
+/*# sourceMappingURL=index.css.map */

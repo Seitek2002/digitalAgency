@@ -336,6 +336,9 @@ button {
   }
 }
 @media screen and (max-width: 730px) {
+  .burger {
+    display: block;
+  }
   .burger__menu {
     display: block;
   }

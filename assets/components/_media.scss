@@ -1,3 +1,9 @@
+@media screen and (max-width: 790px) { 
+    .subtitle {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 730px){
     .burger {
         &__menu {
@@ -20,3 +26,5 @@
         }
     }
 }
+
+

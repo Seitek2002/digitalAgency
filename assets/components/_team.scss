@@ -16,8 +16,8 @@
         text-align: center;
     }
     &__head-box{
-        display: flex;
         justify-content: space-between;
+        @include flex(space-between, center);
     }
     &__box {
         background: #F4EDED;

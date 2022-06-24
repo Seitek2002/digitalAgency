@@ -54,8 +54,10 @@ button {
   text-align: center;
 }
 .team__head-box {
+  justify-content: space-between;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .team__box {
   background: #F4EDED;

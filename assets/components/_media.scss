@@ -1,0 +1,48 @@
+@media screen and (max-width: 1061px) {
+    .hero {
+        &__left {
+            text-align: center;
+        }
+
+        &__content {
+            justify-content: center;
+        }
+
+        &__img {
+            margin-top: 50px;
+        }
+
+        &__suptitle {
+            max-width: 560px;
+        }
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .hero {
+        &__img {
+            width: 320px;
+            height: 320px;
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .hero {
+        &__title {
+            @include font (40px, 700, #000000);
+        }
+
+        &__suptitle {
+            @include font (15px, 500, #000000);
+        }
+    }
+}
+
+@media screen and (max-width: 342px) {
+    .hero {
+        &__button {
+            @include font (14px, 600, #FFFFFF);
+        }
+    }
+}
